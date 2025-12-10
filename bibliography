@@ -1,0 +1,46 @@
+---
+title: "Titanic Survival"
+author: "Sigma 6 Group"
+date: "2025-12-10"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r}
+```
+
+
+# References
+
+Braun, M. (2020) *Logistic Regression: An Introduction to Statistical Modeling*. New York, Springer.
+
+Dawson, P. (2018) *The Titanic: An Illustrated History of the 1912 Disaster*. New York, HarperCollins.
+
+Harrell, F. E. (2015) *Regression Modeling Strategies*. 2nd ed., Cham, Springer.
+
+Hosmer, D. W., Lemeshow, S. and Sturdivant, R. X. (2013) *Applied Logistic Regression*. 3rd ed., Hoboken, Wiley.
+
+James, G., Witten, D., Hastie, T. and Tibshirani, R. (2021) *An Introduction to Statistical Learning: With Applications in R*. 2nd ed., Cham, Springer.
+
+Kaggle (2023) *Titanic: Machine Learning from Disaster*. Available at: https://www.kaggle.com/c/titanic (Accessed: 10 December 2025).
+
+University of California, Berkeley (2023) *Titanic Survival Data: Passenger Demographics and Outcomes*. Berkeley, UC Berkeley Data Science Department.
+
+Wickham, H. and Grolemund, G. (2017) *R for Data Science*. Sebastopol, O’Reilly Media.
+
+
+You can also embed plots, for example:
+
+```{r}
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
